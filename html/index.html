@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style type="text/css">
+        body {
+            background-color: #f2f2f2;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0069d9;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Hello Clouders! Welcome to my Webpage!</h1>
+    <p>This is related to Act 1.4, where we will be creating an image for this application, sending it to AWS and then using it to create an instance.</p>
+    <h2>What are the services that we are using for this excercise?</h2>
+    <p>For this excercise, we will be using the following services:</p>
+
+    <div style="display: flex; justify-content: space-around;">
+        <div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <img src="../img/ec2.png" alt="AWS Logo" width="100" height="100">
+            <a style="margin-top: 5px;" href="https://aws.amazon.com/ec2/" class="button">EC2</a>
+        </div>
+        <div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <img src="../img/ec2.png" alt="ECR LOGO" width="100" height="100">
+            <a style="margin-top: 5px;" href="https://www.docker.com/" class="button">ECR</a>
+        </div>
+        <div style="text-align: center; display: flex; flex-direction: column; align-items: center;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtIwoveckGhRQTM5t_SiGNYfBwq21ESsq1EA&usqp=CAU" alt="Yet Another Logo" width="100" height="100">
+            <a style="margin-top: 5px;" class="button">Docker Hub</a>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-top: 60px;">
+        <button style="margin: 0 10px;"><a href="/about">About</a></button>
+        <button style="margin: 0 10px;"><a href="/contact">Contact</a></button>
+    </div>
+
+</body>
+</html>
